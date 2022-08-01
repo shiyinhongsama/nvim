@@ -7,7 +7,7 @@ end
 db.custom_footer = {
   "",
   "",
-  "",
+  "                http://shiyinhong.cn"
 }
 
 db.custom_center = {
