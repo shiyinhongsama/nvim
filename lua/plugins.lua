@@ -36,4 +36,12 @@ packer.startup(
     --------------------project-plugin---------------------
     use("ahmedkhalf/project.nvim")
     -------------------------------------------------------
+
+    --------------------markdown-preview-------------------
+    use('iamcco/markdown-preview.nvim')
+    -------------------------------------------------------
+    
+    --------------------nvim-treesitter--------------------
+    use({ "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" })
+    -------------------------------------------------------
 end)
